@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Home</title>
+    <link rel="stylesheet" href="portfolio-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .hero-content {
+            padding: 20px 0;
+        }
+        .intro-text {
+            margin-bottom: 10px;
+        }
+        .intro-text.highlight {
+            margin: 15px 0;
+        }
+        .activities-list {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 15px 0;
+        }
+        .activities-list li {
+            margin-bottom: 5px;
+            position: relative;
+            padding-left: 20px;
+        }
+        .activities-list li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Portfolio<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="what-i-do.html">What I Do</a></li>
+                <li><a href="behind-scenes.html">Behind the Scenes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hey, I'm Farah!</h1>
+            <p class="subtitle">Educator • STEAM Advocate • Impact Creator</p>
+            <p class="intro-text">I'm a passionate educator, driven by curiosity to learn everything. I work with little engineers to build things that move and think.</p>
+            <p class="intro-text highlight">As an educator and STEAM advocate, I believe in the power of hands on learning and problem solving. Over the years, I've developed programs that combine technology, art, and critical thinking to help students discover their potential.</p>
+            <p class="intro-text">When I'm not in the classroom, you might find me:</p>
+            <ul class="activities-list">
+                <li>Volunteering with youth programs and community events</li>
+                <li>Running hands-on robotics and tech workshops</li>
+                <li>Sketching random ideas in my notebook</li>
+                <li>Taking photos of everyday moments</li>
+                <li>Getting lost on a hiking trail or planning the next one</li>
+                <li>Dancing (badly but happily)</li>
+            </ul>
+            <div class="cta-buttons">
+                <a href="about.html" class="btn primary-btn">Learn More</a>
+                <a href="contact.html" class="btn secondary-btn">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="robot-container">
+                <div class="robot">
+                    <div class="robot-head"></div>
+                    <div class="robot-body"></div>
+                    <div class="robot-arm left"></div>
+                    <div class="robot-arm right"></div>
+                    <div class="robot-leg left"></div>
+                    <div class="robot-leg right"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/projects/project1.jpg" alt="STEAM Education Initiative">
+                </div>
+                <div class="project-info">
+                    <h3>STEAM Education Initiative</h3>
+                    <p>Developing innovative curriculum for young learners to explore science, technology, engineering, arts, and mathematics through hands-on projects.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/projects/project2.jpg" alt="Community Outreach Program">
+                </div>
+                <div class="project-info">
+                    <h3>Community Outreach Program</h3>
+                    <p>Creating accessible learning opportunities for underserved communities through workshops, mentorship, and resource development.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/projects/project3.jpg" alt="Youth Empowerment Initiative">
+                </div>
+                <div class="project-info">
+                    <h3>Youth Empowerment Initiative</h3>
+                    <p>Empowering young people to discover their potential through creative problem-solving, leadership development, and skill-building workshops.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Art & Play Section -->
+    <section class="section" id="art-play">
+        <h2 class="section-title">Art & <span>Play</span></h2>
+        <div class="art-gallery">
+            <!-- Art Item 1 -->
+            <div class="art-item">
+                <img src="images/art/art1.jpg" alt="Creative Expression">
+                <div class="art-overlay">
+                    <h3>Creative Expression</h3>
+                    <p>Exploring ideas through visual mediums</p>
+                </div>
+            </div>
+
+            <!-- Art Item 2 -->
+            <div class="art-item">
+                <img src="images/art/art2.jpg" alt="Interactive Learning">
+                <div class="art-overlay">
+                    <h3>Interactive Learning</h3>
+                    <p>Making education engaging and fun</p>
+                </div>
+            </div>
+
+            <!-- Art Item 3 -->
+            <div class="art-item">
+                <img src="images/art/art3.jpg" alt="Collaborative Projects">
+                <div class="art-overlay">
+                    <h3>Collaborative Projects</h3>
+                    <p>Working together to create something amazing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Lab Section -->
+    <section class="section" id="teaching-lab">
+        <h2 class="section-title">Teaching <span>Lab</span></h2>
+        <div class="lab-content">
+            <div class="lab-text">
+                <p>My teaching philosophy centers on creating an environment where curiosity is encouraged, mistakes are celebrated as learning opportunities, and every student feels empowered to explore and create.</p>
+                <p>I believe in hands-on learning experiences that connect theoretical knowledge with real-world applications. Through project-based learning, students develop critical thinking skills, creativity, and confidence in their abilities.</p>
+                <ul class="teaching-principles">
+                    <li><i class="fas fa-check-circle"></i> Foster curiosity and a love for learning</li>
+                    <li><i class="fas fa-check-circle"></i> Encourage creative problem-solving</li>
+                    <li><i class="fas fa-check-circle"></i> Build confidence through hands-on experiences</li>
+                    <li><i class="fas fa-check-circle"></i> Create inclusive learning environments</li>
+                </ul>
+                <a href="what-i-do.html" class="btn primary-btn">Learn More About My Approach</a>
+            </div>
+            <div class="lab-image">
+                <img src="images/teaching-lab.jpg" alt="Teaching Lab">
+            </div>
+        </div>
+    </section>
+
+    <!-- Notebook Section -->
+    <section class="section" id="notebook">
+        <h2 class="section-title">My <span>Notebook</span></h2>
+        <div class="notebook-grid">
+            <!-- Notebook Entry 1 -->
+            <div class="notebook-card">
+                <div class="notebook-date">June 15, 2023</div>
+                <h3>Reflections on STEAM Education</h3>
+                <p>Exploring the intersection of science, technology, engineering, arts, and mathematics in early education and how it shapes young minds.</p>
+                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Notebook Entry 2 -->
+            <div class="notebook-card">
+                <div class="notebook-date">May 28, 2023</div>
+                <h3>The Power of Play in Learning</h3>
+                <p>How incorporating play into education enhances creativity, problem-solving skills, and emotional development in children.</p>
+                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Notebook Entry 3 -->
+            <div class="notebook-card">
+                <div class="notebook-date">April 10, 2023</div>
+                <h3>Community Impact Through Education</h3>
+                <p>Strategies for making quality education accessible to all and creating positive change in communities through learning initiatives.</p>
+                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2 class="section-title">Get in <span>Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>I'm always excited to connect with fellow educators, community leaders, and anyone passionate about making a difference through education and creativity.</p>
+                <p>Whether you're interested in collaborating on a project, discussing educational approaches, or simply want to say hello, I'd love to hear from you!</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Portfolio<span>.</span></div>
+            <p>Creating meaningful experiences through design and technology.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="what-i-do.html">What I Do</a>
+                <a href="behind-scenes.html">Behind the Scenes</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p class="copyright">&copy; 2023 Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="portfolio-script.js"></script>
+    <script src="cursor-script.js"></script>
+</body>
+</html> 
